@@ -1,2 +1,2 @@
 # CECDocs
-Documentation for 3ds CECD
+Documentation for the 3ds CECD service

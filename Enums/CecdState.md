@@ -1,0 +1,6 @@
+# CecdState / NdmStatus
+
+    NDM_STATUS_WORKING = 0,
+    NDM_STATUS_IDLE = 1,
+    NDM_STATUS_SUSPENDING = 2,
+    NDM_STATUS_SUSPENDED = 3
