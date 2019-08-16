@@ -1,9 +1,9 @@
 ```
 Name:                   cecd
-Dependency:             0004013000001702
-Dependency:             0004013000003202
-Dependency:             0004013000002d02
-Dependency:             0004013000002202
+Dependency:             0004013000001702    cfg
+Dependency:             0004013000003202    friends
+Dependency:             0004013000002d02    nwm
+Dependency:             0004013000002202    ptm
 Savedata size:          0x0
 Jump id:                0004013000002602
 Program id:             0004013000002602 
