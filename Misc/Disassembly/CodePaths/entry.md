@@ -12,7 +12,7 @@ Entry
     └── os::Initialize
         └── WaitableCounter::Initialize
            ├── svc::CreateAddressArbiter
-           └── SaveThreadLocalRegionAddress
+        ├── SaveThreadLocalRegionAddress
         └── InitializeSharedMemory
             └── InitializeAddressSpaceManager
                 └── CriticalSection::Initialize
