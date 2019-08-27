@@ -1,3 +1,4 @@
 # CecMessageId
-
-    u8 data[8];
+```
+u8 data[8];
+```
