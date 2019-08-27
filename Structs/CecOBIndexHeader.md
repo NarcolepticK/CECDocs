@@ -1,4 +1,4 @@
-# CecOBIndexHeader.md
+# CecOBIndexHeader
 
     u16 magic; // 0x6767 'gg'
     u16 padding;

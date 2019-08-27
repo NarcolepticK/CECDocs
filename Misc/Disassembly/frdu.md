@@ -1,3 +1,4 @@
+# frd:u
 ```
 0x00050000  GetMyFriendKey
 0x00080000  GetMyPresence
