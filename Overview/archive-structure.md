@@ -7,6 +7,7 @@
     ├── TMP (deleted on init, if exists)
     ├── MacFilter___
     ├── MBoxList____
+    ├── SessionId___
     ├── <8-digit box Id>
     │   ├── MBoxInfo____
     │   ├── MBoxData.001

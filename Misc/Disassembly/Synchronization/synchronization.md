@@ -39,3 +39,7 @@ Light Semaphore
 Semaphore
 - ~Semaphore
 - ???
+
+Atomic
+- Swap
+  - Store
