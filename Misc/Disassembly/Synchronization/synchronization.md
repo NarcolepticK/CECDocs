@@ -40,6 +40,10 @@ Semaphore
 - ~Semaphore
 - ???
 
+ScopedLock
+- Enter/Lock
+- Leave/Unlock
+
 Atomic
 - Swap
   - Store

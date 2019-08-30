@@ -1,0 +1,5 @@
+# CecControlSys
+
+- isInitialized
+
+- IsInitialized()

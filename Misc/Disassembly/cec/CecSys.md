@@ -1,0 +1,6 @@
+# CecSys
+
+- sessionHandle
+
+- GetChangeStateEventHandle()
+- Stop()
