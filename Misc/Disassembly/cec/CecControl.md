@@ -6,4 +6,5 @@
 - isNdmSuspended
 
 - IsInitialized()
+- StartScanning()
 - StopScanning()
