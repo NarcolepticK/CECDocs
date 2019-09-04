@@ -153,7 +153,7 @@
 - _printf_ll_oct
 - _printf_llx
 - _printf_longlong_dec
-- _print_longlong_hex
+- _printf_longlong_hex
 - _printf_longlong_oct
 - _printf_percent
 - _printf_post_padding
