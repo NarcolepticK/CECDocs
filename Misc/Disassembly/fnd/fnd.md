@@ -1,5 +1,15 @@
 # Fnd
 
+- DateTime
+  - MAX_DATETIME
+  - MIN_DATETIME
+  - DateTime()
+  - DateToDays()
+  - DaysToDate()
+  - FromParameters()
+  - GetNow()
+  - GetParameters()
+
 - ExpHeapBase
   - vtable
   - Finalize()
@@ -27,8 +37,18 @@
 
 ### ::detail
 - sRootList
+- rootListInitialized
+- AppendListObject()
+- CreateHeap()
 - DestroyHeap()
 - FindContainHeap()
+- FindListContainHeap()
 - GetNextListObject()
+- InitFreeMBlock()
+- InitHeap()
+- InitList()
+- InitMBlock()
 - NNSi_FndFinalizeHeap()
+- NNSi_FndInitHeap()
 - RemoveListObject()
+- SetFirstObject()
