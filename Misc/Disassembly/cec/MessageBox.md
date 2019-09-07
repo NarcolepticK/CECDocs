@@ -5,16 +5,25 @@
 - isInboxInfoBufAllocated
 - isOutboxInfoBufAllocated
 - isSuspended
+- criticalSection
+- memCriticalSection
 
 - CheckEulaParentalControl()
 - CloseMessageBox()
+- CommitMessageBox()
 - FreeInboxInfoBuf()
 - FreeOutboxInfoBuf()
+- GetMessageIndex()
+- GetMessHeader()
 - MessageBox()
 - OpenAndRead()
 - OpenAndWrite()
 - OpenFile()
+- ReadBoxInfo()
 - ReadData()
+- ReadOutBoxIndex()
 - SetData()
+- WriteBoxInfo()
+- WriteMessage()
 - WriteMessageWithHmac()
 - ~MessageBox()

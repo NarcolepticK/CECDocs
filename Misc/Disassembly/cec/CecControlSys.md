@@ -6,3 +6,9 @@
 
 - CecControlSys()
 - IsInitialized()
+
+```
+bool IsInitializedSys(void) {
+  return isInitializedSys;
+}
+```

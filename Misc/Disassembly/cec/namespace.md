@@ -1,5 +1,6 @@
 # Cec
 
+- pAllocateFunction
 - pAllocator
 - sessionHandle
 
