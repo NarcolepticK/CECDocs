@@ -1,7 +1,7 @@
 # Cec
 
 - sessionHandle
-
+###
 - GetChangeStateEventHandle()
 - Open()
 - OpenAndRead()

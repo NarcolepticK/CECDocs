@@ -1,7 +1,7 @@
 # CecSys
 
 - sessionHandle
-
+###
 - GetChangeStateEventHandle()
 - Open()
 - OpenAndRead()

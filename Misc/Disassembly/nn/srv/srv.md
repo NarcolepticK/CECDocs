@@ -5,7 +5,7 @@
 - isInitialized
 - portName
 - sessionHandle
-
+###
 - ConnectToAndRegisterClient()
 - EnableNotification()
 - Exit()

@@ -1,0 +1,4 @@
+# SharedMemoryBlock
+
+- Finalize()
+- ~SharedMemoryBlock()

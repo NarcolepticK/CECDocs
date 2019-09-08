@@ -12,7 +12,7 @@
 - portName
 - pPortName
 - sessionHandle
-
+###
 - Ctor()
 - Exit()
 - GetAwakeReason()

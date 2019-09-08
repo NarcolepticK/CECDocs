@@ -5,7 +5,7 @@
 - isDebugMode
 - isInitialized
 - isNdmSuspended
-
+###
 - Ctor()
 - IsInitialized()
 - StartScanning()

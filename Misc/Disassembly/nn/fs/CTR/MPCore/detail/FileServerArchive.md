@@ -6,7 +6,7 @@
 - sFileHeap
 - sFileServerDirectoryBuffer
 - sFileServerFileBuffer
-
+###
 - CreateDirectory()
 - DeleteDirectory()
 - DeleteDirectoryRecursively()
@@ -16,14 +16,14 @@
 - OpenDirectory()
 - OpenFile()
 - ~FileServerArchive()
-
+###
 - Directory
   - Close()
   - DeleteObject()
   - GetHandle()
   - TryRead()
   - ~Directory()
-
+###
 - File
   - Close()
   - File()

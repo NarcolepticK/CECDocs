@@ -3,7 +3,7 @@
 - pAllocateFunction
 - pAllocator
 - sessionHandle
-
+###
 - GetChangeStateEventHandle()
 - Open()
 - OpenAndRead()

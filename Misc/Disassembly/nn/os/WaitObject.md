@@ -1,0 +1,3 @@
+# WaitObject
+
+- WaitMultiple()

@@ -1,67 +1,33 @@
 # os
 
 - AddressSpaceManager
-  - Allocate()
-  - Free()
-  - Initialize()
-
 - ::ARM
-  - pThreadLocalRegion
-  - GetThreadLLocalRegionAddress()
-  - SetThreadLocalRegionAddress()
-
+  - ::anon
+  - ::detail
 - CriticalSection
-  - Enter()
-  - Initialize()
-  - IsOwned()
-  - Leave()
-  - OwnsLock()
-  - ~CriticalSection()
-
+- ::CTR
+  - ::anon
+  - ::detail
+    - ::anon
 - ::detail
-  - InitializeSharedMemory()
-  - InitializestackMemory()
-  - InitializeThreadEnvironment()
-  - InternalErrorHandler()
-
 - Event
-
+- InterCoreCriticalSection
 - LightEvent
-  - ClearSignal()
-  - Initialize()
-  - SetState()
-  - Signal()
-  - TryWait()
-  - Wait()
-
 - LightSemaphore
-
 - Mutex
-
 - Semaphore
-
 - SharedMemoryBlock
-  - Finalize()
-  - ~SharedMemoryBlock()
-
 - SimpleLock
-  - Initialize()
-  - Lock()
-  - TryLock()
-  - Unlock()
-
 - Thread
-  - pAutoStackManager
-  - CallDestructorAndExit()
-  - ConvertPriority()
-  - SetAutoStackManagerAddress()
-  - SleepThread()
-  - ThreadStart()
-  - TryInitializeAndStartImpl()
-  - TryInitializeAndStartImplUsingAutoStack()
-
 - ThreadLocalStorage
-  - TLSMap
-  - CheckIndexInMap()
-  - ClearAllSlots()
-  - ~ThreadLocalStorage()
+- WaitableCounter
+- WaitObject
+###
+- GetAppMemorySize()
+- GetDeviceMemoryAddress()
+- GetDeviceMemorySize()
+- GetHeapSize()
+- GetUsingMemorySize()
+- Initialize()
+- SetDeviceMemorySize()
+- SetHeapSize()

@@ -9,7 +9,7 @@
 - isInitialize
 - portName
 - sessionHandle
-
+###
 - Ctor()
 - Exit()
 - GenConsoleHashUnique()
@@ -24,7 +24,7 @@
 - isInitialized
 - portName
 - sessionHandle
-
+###
 - Ctor()
 - Exit()
 - Initialize()

@@ -7,7 +7,7 @@
 - isSuspended
 - criticalSection
 - memCriticalSection
-
+###
 - CheckEulaParentalControl()
 - CloseMessageBox()
 - CommitMessageBox()

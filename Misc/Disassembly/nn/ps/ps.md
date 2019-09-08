@@ -3,7 +3,7 @@
 - isInitialized
 - portName
 - sessionHandle
-
+###
 - Ctor()
 - EncryptDecryptAes()
 - Exit()

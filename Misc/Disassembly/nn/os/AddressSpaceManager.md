@@ -1,0 +1,5 @@
+# AddressSpaceManager
+
+- Allocate()
+- Free()
+- Initialize()
