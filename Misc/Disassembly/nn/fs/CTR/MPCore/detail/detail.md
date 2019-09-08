@@ -1,0 +1,4 @@
+# detail
+
+- gArchiveTable
+- sFileServerArchiveBuffer
