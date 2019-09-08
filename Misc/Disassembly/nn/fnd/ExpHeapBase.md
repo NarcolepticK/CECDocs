@@ -1,0 +1,5 @@
+# ExpHeapBase
+
+- vtable
+- Finalize()
+- ~ExpHeapBase()
