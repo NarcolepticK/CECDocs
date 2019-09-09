@@ -1,12 +1,13 @@
 # CecControl
 
-- criticalSection
-- enterExclusiveState
-- isDebugMode
-- isInitialized
-- isNdmSuspended
+- s_CriticalSection
+- s_EnterExclusiveState
+- s_IsDebugMode
+- s_IsInitialized
+- s_IsNdmSuspended
 ###
-- Ctor()
+- CecControl()
+- GetChangeStateEventHandle()
 - IsInitialized()
 - StartScanning()
 - StopScanning()

@@ -1,17 +1,12 @@
-# Cec
+# detail
 
-- pAllocateFunction
-- pAllocator
-- sessionHandle
-###
+- GetCecdState()
 - GetChangeStateEventHandle()
 - Open()
 - OpenAndRead()
 - OpenAndWrite()
-- os_free()
-- os_malloc()
 - ReadData()
-- SetAllocFunc()
 - SetData()
+- Start()
 - Stop()
 - WriteMessageWithHmac()

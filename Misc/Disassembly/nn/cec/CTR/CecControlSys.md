@@ -1,8 +1,8 @@
 # CecControlSys
 
-- isInitialized
-- sHeap
-- sSharedMemory
+- s_IsInitialized
+- s_Heap
+- s_SharedMemory
 ###
 - CecControlSys()
 - IsInitialized()

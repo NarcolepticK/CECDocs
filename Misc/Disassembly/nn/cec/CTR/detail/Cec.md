@@ -1,13 +1,18 @@
 # Cec
 
-- sessionHandle
+- p_PortName
+- s_MaxSessions
+- s_Session
 ###
+- Cec()
+- GetCecdState()
 - GetChangeStateEventHandle()
 - Open()
 - OpenAndRead()
 - OpenAndWrite()
 - ReadData()
 - SetData()
+- Start()
 - Stop()
 - WriteMessageWithHmac()
 

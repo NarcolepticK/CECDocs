@@ -25,5 +25,5 @@
 - SetData()
 - WriteBoxInfo()
 - WriteMessage()
-- WriteMessageWithHmac()
+- WriteMessageFileWithHmac()
 - ~MessageBox()
