@@ -1,32 +1,18 @@
 # Cfg
 
-- Exit()
-- Initialize()
-
-
-## s
-- initializeCount
-- isInitialize
-- portName
-- sessionHandle
-###
-- Ctor()
-- Exit()
-- GenConsoleHashUnique()
-- GetConfigInfoBlk2()
-- GetConfigInfoBlk8()
-- Initialize()
-
-
-## u
-- criticalSection
-- initializeCount
-- isInitialized
-- portName
-- sessionHandle
-###
-- Ctor()
-- Exit()
-- Initialize()
-- IsInitialized()
-- SetIsInitialized()
+- ::CTR
+  - ::anon
+    - s_CriticalSection
+    - s_CriticalSection2
+  - ::detail
+    - PORT_NAME_CFG_SYS
+    - PORT_NAME_CFG_USER
+    ###
+    - IpcSys
+    - IpcUser
+    ###
+    - Finalize()
+    - GenHashConsoleUnique()
+    - GetConfigInfoBlk2()
+    - GetConfigInfoBlk8()
+    - Initialize()
