@@ -34,3 +34,7 @@
   - os_free()
   - os_malloc()
   - SetAllocFunc()
+  ###
+  - s_NotificationHandler:0x100
+  - s_NotificationHandler:0x105
+  - s_NotificationHandler:0x106
