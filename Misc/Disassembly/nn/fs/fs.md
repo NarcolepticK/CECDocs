@@ -1,0 +1,49 @@
+# fs
+
+- ::anon
+  - FileServerSession
+  - FileSystemBase
+  - g_SaveDataArchive
+  - s_NotificationCardEjectedHandler
+  - s_NotificationCardInsertedHandler
+  - s_NotificationSdmcEjectedHandler
+  - s_NotificationSdmcInsertedHandler
+- ::CTR
+  - GetSelfSystemMenuData()
+  - ::MPCore
+    - ::detail
+      - ::anon
+        - g_FileServerHandle
+        - g_MountLock
+      - ArchiveTableEntry
+        - ...
+      - FileServerArchive
+        - ...
+      - UserFileSystem
+        - ...
+      - g_ArchiveTable
+      - s_FileServerArchiveBuffer
+      ###
+      - FindArchive<wchar_t>()
+      - OpenSaveData()
+      - OpenSharedExtSaveData()
+      - RegisterArchive()
+- ::detail
+  - ::anon
+    - s_pGlobalFileSystemBase
+  - FILE_SERVER_NAME
+  - FILE_SERVER_NAME_LOADER
+  - FileSystemBase
+  ###
+  - GetGlobalFileSystemBase()
+  - GetIpcFileSystem()
+  - RegisterGlobalFileSystemBase()
+- ::ipc
+  - Directory
+  - File
+  - FileSystem
+- Initialize()
+- IsInitialized()
+- MountSaveData()
+- MountSharedExtSaveData()
+- Unmount()
