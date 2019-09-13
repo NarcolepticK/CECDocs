@@ -31,10 +31,12 @@
   ###
   - HandleNotification()
   - ~EventNotificationHandlerBase()
+- EnableNotification()
 - Exit()
 - GetServiceHandle()
 - Initialize()
 - IsInitialized()
 - MAKE_ERROR_CODE()
 - ReceiveNotification()
+- RegisterNotificationHandler()
 - Subscribe()
