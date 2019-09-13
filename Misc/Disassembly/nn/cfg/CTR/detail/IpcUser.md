@@ -5,7 +5,7 @@
 - s_Session
 ###
 - Finalize()
-- GenHashConsoleUnique()
+- GetTransferableId()
 - GetConfigInfoBlk2()
 - Initialize()
 - IpcUser()

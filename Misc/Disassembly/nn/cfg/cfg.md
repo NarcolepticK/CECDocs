@@ -12,7 +12,10 @@
     - IpcUser
     ###
     - Finalize()
-    - GenHashConsoleUnique()
+    - GetTransferableId()
     - GetConfigInfoBlk2()
     - GetConfigInfoBlk8()
     - Initialize()
+    - IsEulaAgreed()
+    - IsParentalControlEnabled()
+  - GetTransferableId()

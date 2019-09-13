@@ -4,7 +4,9 @@
 - PORT_NAME_CFG_USER
 ###
 - Finalize()
-- GenHashConsoleUnique()
+- GetTransferableId()
 - GetConfigInfoBlk2()
 - GetConfigInfoBlk8()
 - Initialize()
+- IsEulaAgreed()
+- IsParentalControlEnabled()
