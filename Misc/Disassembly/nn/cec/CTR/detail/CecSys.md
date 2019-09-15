@@ -37,128 +37,23 @@ Result GetChangeStateEventHandle(Handle *outHandle) {
 
 Result Open(u32 programId, u32 pathType, u32 openFlag, u32 *fileSizeOut) {
   u32 tls;
-  Result ret;- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()
-  u32 *cmdBuf- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()
+  Result ret;
+  u32 *cmdBuf;
   
-  cmdBuf = (u- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()penFlag;
-  tls = GetTL- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()
-  cmdBuf = (u- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()tls + 0x80);
-  ipcMakeHead- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()dBuf,1,3,2,0);
-  cmdBuf[1] =- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()amId;
-  cmdBuf[2] =- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()ype;
-  cmdBuf[3] =- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()lag;
-  ipcDescCurr- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()cessId((u32 *)&cmdBuf,4);
-  ret = SendS- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()uest:0x32(sessionHandle);
-  if (-1 < re- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()
-    *fileSize- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()cmdBuf[2];
-    ret = cmd- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac();
+  tls = GetTLS();
+  cmdBuf = (u32 *)(tls + 0x80);
+  ipcMakeHeader(&cmdBuf,0x11,4,4,0);
+  cmdBuf[1] = param_2;
+  cmdBuf[2] = param_3;
+  cmdBuf[3] = param_4;
+  cmdBuf[4] = param_5;
+  ipcDescCurrentProcessId((u32 *)&cmdBuf,5);
+  FUN_0010f5b8((int *)&cmdBuf,7,param_1,param_2);
+  ret = SendSyncRequest:0x32(sessionHandle);
+  if (-1 < ret) {
+    ret = cmdBuf[1];
   }
-  return ret;- GetChangeStateEventHandle()
-- Open()
-- OpenAndRead()
-- OpenAndWrite()
-- ReadData()
-- SetData()
-- Stop()
-- WriteMessageWithHmac()
+  return ret;
 }
 
 Result OpenAndRead(u32* param_1, uint param_2, uint *param_3, uint param_4, uint param_5, uint param_6) {
