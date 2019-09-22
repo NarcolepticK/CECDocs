@@ -1,17 +1,16 @@
 # SetData
 ```
-Result SetData(u32 programId, u32 pathType, u32 option, u32 *messageIdAddress)
+Result SetData(programId, dataBuf, dataBufSize, option)
 {
   Result res;
-  Result res2;
   
   if (cecd::s::sessionHandle != 0) {
-    res = cecd::s::SetData(programId, pathType, option, messageIdAddress);
+    res = cecd::s::SetData(programId, dataBuf, dataBufSize, option);
     return res;
   }
   if (cecd::u::sessionHandle != 0) {
-    res2 = cecd::u::SetData(programId, pathType, option, messageIdAddress);
-    return res2;
+    res = cecd::u::SetData(programId, dataBuf, dataBufSize, option);
+    return res;
   }
   return 0xE0810BF8;
 }
