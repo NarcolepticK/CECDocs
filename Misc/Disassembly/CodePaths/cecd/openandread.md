@@ -1,18 +1,16 @@
 # OpenAndRead
 ```
-Result OpenAndRead(undefined4 param_1, uint param_2, uint *param_3, uint param_4, uint param_5,
-                   uint param_6)
+Result OpenAndRead(readBuf, readBufSize, readSize, programId, pathType, fileFlag)
 {
   Result res;
-  Result res2;
   
   if (cecd::s::sessionHandle != 0) {
-    res = cecd::s::OpenAndRead(param_1, param_2, param_3, param_4, param_5, param_6);
+    res = cecd::s::OpenAndRead(readBuf, readBufSize, readSize, programId, pathType, fileFlag);
     return res;
   }
   if (cecd::u::sessionHandle != 0) {
-    res2 = cecd::u::OpenAndRead(param_1, param_2, param_3, param_4, param_5, param_6);
-    return res2;
+    res = cecd::u::OpenAndRead(readBuf, readBufSize, readSize, programId, pathType, fileFlag);
+    return res;
   }
   return 0xE0810BF8;
 }
